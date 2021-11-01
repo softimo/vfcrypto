@@ -321,7 +321,6 @@ header{
 }
 .secc-uno{
     display:flex;
-    flex-direction: row !important;
     justify-content: flex-end;
     margin-right: 5%;
     
@@ -332,6 +331,11 @@ header{
     margin: 0px;
     padding: 3%;
     font-weight: 800;
+    
+}
+
+.nav-li{
+    text-align: center;
 }
 
 
@@ -343,10 +347,17 @@ header{
   min-width: 100%;
   min-height: 100%;
   margin-left: 200px !important;
-  
-
 }
 
 
 
+#nosotros{
+    color: gold;
+    font-weight: bolder;
+    
+}
+
+#preguntas{
+    width: 100%;
+}
 

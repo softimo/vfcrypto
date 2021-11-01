@@ -14,7 +14,7 @@
   <link href="css/styles.css?v=1.6" rel="stylesheet">
   <link href="css/queries.css?v=1.6" rel="stylesheet">
   <link href="css/jquery.fancybox.css" rel="stylesheet">
-  <link rel="shortcut icon" href="./img/ico.ico">
+  <link rel="shortcut icon" href="./img/LOGO2.ico">
 
   <!-- Fonts -->
   <link
@@ -34,9 +34,12 @@
     <section class="secc-uno">
       <nav class="btn-nav">
         <ul class="nav">
-          <li class="nav-li"><a href="#sobre-nosortos">Nosotros </a></li>
+          <li class="nav-li"><a href="#sobre-nosortos"> ¿Quiénes somos? </a></li>
           <li class="nav-li"><a href="#media">Inversiones </a></li>
           <li class="nav-li"><a href="#prensa">Prensa </a></li>
+          <li class="nav-li"><a href="#">Preguntas Frecuentes </a></li>
+          <li class="nav-li"><a href="#"> Más </a></li>
+
         </ul>
       </nav>
     </section>
@@ -53,9 +56,9 @@
       </div>
 
       <!-- video de fondo -->
-      <div class="class-video" >
+      <div class="class-video" id="video" >
         <div class="col-md-2 col-md-offset-5 text-center" >
-          <video src="./video/Animation 1280x720.mp4" autoplay loop muted id="myVideo" type="video/mp4"></video>
+          <video  src="./video/Animation 1280x720.mp4" autoplay loop muted id="myVideo" type="video/mp4"></video>
           <a href="http://player.vimeo.com/video/87701971?title=0&amp;byline=0&amp;portrait=0&amp;color=1883ad&amp;autoplay=1"
             class="hero-play-btn various fancybox.iframe">Play Button</a>
         </div>
@@ -71,19 +74,24 @@
   </section>
 
     <!-- conoce mas sobre nosotros -->
-  <section class="download-now" id="getstarted">
+  <section class="download-now" id="getstarted" >
     <div class="container">
       <div class="row">
         <div class="col-md-8 wp1">
           <h1>
-            Sobre nosotros
+            ¿Quiénes somos? 
           </h1>
-          <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Auae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-            ratione voluptatem sequi nesciunt.</p>
+          <p id="nosotros">Hola! Soy Valeria Frias, si estas leyendo esto quizas te encuentres en la disyuntiva que tuve yo hace mas dos años. 
+            Teniendo dinero ahorrado buscaba una inversion que me permitiera sumar un ingreso extra a mi trabajo formal, rentable 
+            y sin ocuparme. Luego de meses de buscar asesoramiento, encontre la solucion. </p>
+          <p id="nosotros">Tome la decisión de invertir mis ahorros en mineria de criptomonedas. Sin dudas, era lo que buscaba a pesar del 
+            escenario poco prometedor y riesgoso imperante a nivel economico. En pocos meses, recupere la inversión y comence
+            a capacitarme en este fabuloso mundo de las inversiones digitales.</p>
+          <p id="nosotros">Un reconocido periodista decide publicar mi caso, siendo la nota mas leída durante varios días. En ese momento
+            cientos de personas se contactaron para pedirme asesoramiento y armado de sus Rigs, motivo por el que decidí 
+            colocar esta info en la web a fin de que puedan entender como funciona el cripto universo. </p>
+          <p id="nosotros">Actualmente, ayudo a los que quieran iniciarse en la criptomineria, alentadolos desde el lugar de que todos 
+            podemos hacerlo.</p>
           <a href="#media" class="download-btn">Inversiones</a>
         </div>
       </div>
@@ -101,15 +109,17 @@
             <ul class="slides">
               <li>
                 <div class="avatar"><img src="img/av-blaz.png" alt="Blaz Robar"></div>
-                <h1>He realizado mis inversiones gracias al asesoramiento de Valeria y mi capital ha crecido.</h1>
+                <h1>Invertí en tu rig de minería en pesos y obtene tus ganancias en dólares.</h1>
               </li>
               <li>
                 <div class="avatar"><img src="img/av-pete.png" alt="Pete Finlan"></div>
-                <h1>La rentabilidad de mis inversiones en mineria aumento un 70% en el ultimo año</h1>
+                <h1>¿Querés empezar a minar en criptomonedas y no sabes como?</h1>
               </li>
               <li>
                 <div class="avatar"><img src="img/av-doge.png" alt="Doge Finbar"></div>
-                <h1>No existe inversion mas rentable en el mercado. El asesoramiento de Valeria nos ayudo a elegir la mejor opcion para nosotros</h1>
+                <h1>Invertí con Vale porque ademas de ser confiable, me dio el mejor asesoramiento y atención, su 
+                  trato hace realmente la diferencia.
+                </h1>
               </li>
             </ul>
 
@@ -151,7 +161,7 @@
 
       <div class="row">
         <div class="col-md-12 text-center">
-          <a href="#prensa" class="try-btn">Prensa</a>
+          <a href="#desing" class="try-btn">Prensa</a>
         </div>
       </div>
     </div>
@@ -218,33 +228,103 @@
   </section>  
 
 
-  <footer id= "prensa">
+  <footer id= "pregfrec">
+
+    <!-- Preguntas frecuentes -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan
-            suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh
-            tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes,
-            nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+        <div class="col-md-4" id = "preguntas">
+          <h2>Preguntas Frecuentes</h2>
+          <p>
+            1 - ¿Qué es una criptomoneda?
+            Una criptomoneda es una moneda digital que se puede usar para comprar bienes y servicios;
+            utiliza un registro electronico fuertemente cifrado a fin de garantizar la integridad de transacciones
+          </p>
+          <p>
+            2 - ¿Qué es la minería de criptomonedas y como funciona?
+            La minería de criptomonedas es la actividad que permite procesar transacciones de usuarios en una red descentralizada, 
+            uno de los elementos claves que permiten que las criptomonedas funcionen sin la necesidad de una autoridad central de 
+            terceros, como Bancos y Estados o Gobiernos. Es un proceso en el que las transacciones entre usuarios se verifican y 
+            se agregan al libro público de blockchain.
+          </p>
+          <p>
+            3 - ¿Qué es un rig minero y Porque se gana dinero con esto?
+            Un rig minero es un procesador de datos que valida transacciones y trabaja para organizarlas en bloques, 
+            por este trabajo realizado la red (ETHEREUM) paga una comisión con criptomonedas, estas criptomonedas 
+            hoy cotizan en el mercado a nivel mundial y son muy facilmente intercambiables por otras criptodivisas o
+             monedas fiduciarias (Dolares Estadounidenses)
+          </p>
+          <p>
+            4 - ¿Cómo y dónde cambio mis criptomonedas a dólares?
+            La comunidad de personas que se manejan con activos digitales cada día es mayor, 
+            gracias a esto, existe el comercio P2P (persona a persona ) con lo cual de manera segura se 
+            puede cambiar a través de exchanges como Binance. Otra opción de forma local se puede realizar en 
+            cualquier casa de cambio donde habitualmente se compran y venden dólares.
+          </p>
+          <p>
+            5 - ¿Qué es una wallet?
+            También llamada monedero, es la herramienta con la que los usuarios guardan o almacenan sus criptomonedas 
+            y en la que luego pueden utilizar para recibir y enviar las mismas, La más conocida es Binance y la seguridad
+             que tienen las wallet a diferencia de los bancos, es que permiten que el usuario puede realizar sus 
+             transacciones con el control total de sus claves privadas. Para mucho mayor resguardo se utiliza la 
+             COLD wallet, que no utiliza internet, osea permanecen offline y con mayor nivel de seguridad.
+          </p>
+          <p>
+            6 - ¿Cuál es la vida útil de los rigs y qué hago luego de finalizada su vida útil?
+            Con un correcto y periodico mantenimiento, la vida útil de un equipo se puede extender hasta cinco años, 
+            luego de eso los componentes pueden venderse o sumando hardware se puede armar una PC familiar. 
+          </p>
+          <p>
+            7 - ¿Qué pasa si se corta la luz, se daña el equipo?
+            Todos nuestros equipos son entregados con una zapatilla de proteccion ante picos de tension y configurados 
+            con un timer de arranque, para que en el caso de corte de luz, si estas de viaje o fuera de tu casa, una vez
+             que se restablezca el suministro energético el equipo automáticamente volverá a ponerse online y comenzará a 
+             minar de forma autónoma, evitando asi cualquier tipo de daño. Todo esto lo vas a poder ver y controlar
+              remotamente con la app que te instalamos el dia que entregamos tu rig. 
+          </p>
+
+          <p>
+            8 - ¿Qué mantenimiento debo hacerle al equipo?
+            Te sugiero que cuando observes que tus placas graficas esten con demasiado polvo, apagues el equipo y
+             los limpies con aire comprimido, es lo ideal para remocion de particulas de polvo y suciedad, en el
+              caso de no poder hacerlo, nosotros nos ocupamos del mantenimiento de tus rigs.
+          </p>
+          <p>
+            9 - ¿Mi equipo puede minar otras criptomonedas?
+            Si, los equipos estan preparados para poder minar otras criptomonedas, actualmente recomendamos 
+            Ethereum por ser la que mayor rentabilidad nos ofrece.
+          </p>
+          <p>
+            10 - ¿Qué pasará con los rig´s de ETHEREUM después de la actualización 2.0?
+            En referencia a la incertidumbre del cambio de protocolo de ETH, los equipos que armamos son genericos, 
+            con lo cual en cuestion de minutos y remotamente los configuro para que comiencen a minar otra criptomoneda,
+             como puede ser Ergo, Ravencoin, Conflux, Ethereum classic, etc.
+          </p>
+          <p>
+            11 - ¿Tengo que cambiar la instalación eléctrica antes de adquirir mi equipo?
+            Dependiendo de la cantidad de equipos de mineria que desee tener, debera chequear en su domicilio las llaves
+             termicas y disyuntores con un electricista matriculado, antes de colocar los mismos. De todas formas, dentro 
+             de la informacion que le brindamos al momento de adquirir el equipo, le informamos exactamente la cantidad 
+             de KWatts que consumen, hasta pudiendo asi calcular, ademas, el gasto de consumo electrico segun el lugar 
+             donde vive. 
+          </p>
+           <p>
+             12 - ¿Qué es el hash y megahash?
+             Hashrate es el poder computacional que se utiliza para minar y procesar transacciones en una blockchain. 
+             Un Megahash es equivalente a 1000 kilo hashes. 
+           </p>
+           <p>
+             13 - ¿Qué es y cómo funciona la blockchain?
+             Significa, literalmente, cadena de bloques. Es una base de datos o registro publico que puede ser 
+             acompanado por millones de usuarios en modo peer to peer (P2P) y que permite el almacenamiento de la 
+             informacion de forma segura, unica y organizada.
+           </p>
         </div>
-        <div class="col-md-3">
-          <p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
-        </div>
-        <div class="col-md-2 col-md-offset-3">
-          <ul class="footer-nav">
-            <li><a href="#">Get Started Tutorial</a></li>
-            <li><a href="#">Introduction Video</a></li>
-            <li><a href="#">See the Features</a></li>
-            <li><a href="#">Download a Trial</a></li>
-            <li><a href="#">Get in Touch!</a></li>
-          </ul>
-        </div>
-      </div>
+
       <div class="row">
         <div class="col-md-12 text-center">
           <a href="#" class="badge-btn">Badge Button</a>
-          <!--<p class="footer-credit">Design by <a href="http://www.blazrobar.com">Blaz Robar</a></p>-->
+          <p class="footer-credit">Design by <a href="http://www.blazrobar.com">Blaz Robar</a></p>-->
         </div>
       </div>
     </div>
