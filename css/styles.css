@@ -218,7 +218,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .get-started-btn { background-color: #5cabdf; padding: 20px 80px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 22px; letter-spacing: 2px; box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; }
 .get-started-btn:hover, .get-started-btn:focus { text-decoration: none; background-color: #b1b6d5; }
 .download-now { background: #e8b968 url('../img/ipadBG.png') no-repeat right 65px; background-size: 50%; }
-.download-now p { color: #fff; font-size: 16px; margin: 40px 30px 40px 0; line-height: 30px; }
+.download-now p { color: #fff; font-size: 15px; /*margin: 40px 30px 40px 0; line-height: 30px;*/ }
 .download-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 185px; }
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #a58347; color: #a58347; }
 .testimonials { background: #5b6869 url('../img/tBG01.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
@@ -319,6 +319,25 @@ header{
     position: relative;
     z-index: 100;
 }
+
+#valeriaperfil{
+    display: flex;
+    flex-direction: wrap;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    width:150% !important;
+
+}
+
+#perfil{
+    width: 200px;
+    height: 300px;
+    border-radius: 180px;
+    margin-right: 7vh;
+}
+
+
+
 .secc-uno{
     display:flex;
     justify-content: flex-end;
@@ -339,7 +358,6 @@ header{
 }
 
 
-
 #myVideo {
   position: fixed;
   right: 0;
@@ -352,12 +370,22 @@ header{
 
 
 #nosotros{
-    color: gold;
-    font-weight: bolder;
-    
+    color: whitesmoke;
+    background-color: #07153d;
+    opacity: 0.8;
+    margin-left: -30px;
+    padding: 15px;
+    border-radius: 5px;
+    align-content: center;
+    max-height:max-content;
+    font-size: 17px;
 }
 
 #preguntas{
     width: 100%;
+}
+
+h3 {
+    font-weight: bolder;
 }
 
