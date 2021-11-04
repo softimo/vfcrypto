@@ -186,7 +186,7 @@ Headings
 
 .hero h1 { font-size: 60px; font-weight: 100; color: #fff; letter-spacing: -1px; margin: 100px 0 20px 0; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
-.testimonials h1 { color: #fff; font-size: 43px; font-weight: 100; margin: 20px 0 80px 0; font-style: italic; }
+.testimonials h1 { color: #ffff; font-size: 43px; margin: 20px 0 80px 0; font-style: italic;font-weight: bolder;  }
 .features h1 { color: white; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
 .design h1 { color: #abbcc3; font-size: 38px; font-weight: 300; margin-top: 0; }
 /* ==========================================================================
@@ -210,14 +210,14 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 
 
 
-.hero { background: url('../img/hero.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0; height: auto; }
+.hero { -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0; height: auto; }
 .hero p { color: #d0e7e9; font-style: italic; font-size: 17px; }
 .hero a { color: #fff; }
 .hero-play-btn { height: 99px; width: 99px; background: url('../img/play-btn.png') no-repeat center center; display: block; text-indent: -99999px; margin: 80px auto 260px; transition: all 1s ease; -moz-transition: all 1s ease; -webkit-transition: all 1s ease; -o-transition: all 1s ease; }
 .hero-play-btn:hover, .hero-play-btn:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
 .get-started-btn { background-color: #07153D; margin-top: 350px; padding: 20px 80px; opacity: 0.8; border-radius: 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 22px; letter-spacing: 2px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; }
 .get-started-btn:hover, .get-started-btn:focus { text-decoration: none; opacity: 2; }
-.download-now { background: #e8b968 url('../img/ipadBG.png') no-repeat right 65px; background-size: 50%; }
+.download-now { background: silver no-repeat right 65px; background-size: 50%; }
 .download-now p { color: #fff; font-size: 15px; /*margin: 40px 30px 40px 0; line-height: 30px;*/ }
 .download-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 185px; }
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: silver; color: silver; }
@@ -229,7 +229,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .margin-bottom { margin-bottom: 70px; }
 .try-btn { background-color: #5cabdf; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; color: #fff; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; padding: 15px 50px; margin: 70px 0 70px; }
 .try-btn:hover, .try-btn:focus { background-color: #b1b6d5; color: #2f3037; text-decoration: none; }
-.design { padding: 100px 0; background-color: #f6f6f4; position: relative; }
+.design { padding: 100px 0; background-color: #f6f6f4; position: relative;}
 .flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgb(253, 253, 253); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
 .colourway { height: 346px; }
@@ -359,14 +359,15 @@ header{
 
 
 #myVideo {
-  position: fixed;
+ position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
   margin-left: 200px !important;
-}
 
+}
+ 
 
 #nosotros{
     color: snow;
@@ -429,6 +430,42 @@ h3 {
 
 }
 
-#FAQ{
+.FAQ{
     margin-left: 15px;
+    font-size:30px
+}
+.fotoprensa {
+    background-image: url(../img/prensa_2_11.jpeg);
+}
+
+.fotoprensa2{
+    background-image: url(../img/prensa1_2_10.jpeg);
+}
+
+.fotoprensa3{
+    background-image: url(../img/prensa2_12_10.jpg);
+}
+
+.fotoprensa4{
+    background-image: url(../img/prensa4_15_10.jpg);
+}
+
+.tituloprensa{
+    font-size-adjust: inherit; 
+    color: #9197a8; 
+    text-transform: uppercase; 
+    font-weight: 600; 
+    letter-spacing: 2px; 
+    padding: 20px 40px 0; 
+}
+.subtituloprensa{
+    padding: 0px 20px 40px 40px; 
+    font-style: italic; 
+    color: #7a8387; 
+    font-size: 16px;
+}
+.vermas{
+    color: black;
+    margin-left: 40%;
+    margin-bottom: 10%;
 }
