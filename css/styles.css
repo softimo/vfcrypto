@@ -186,7 +186,7 @@ Headings
 
 .hero h1 { font-size: 60px; font-weight: 100; color: #fff; letter-spacing: -1px; margin: 100px 0 20px 0; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
-.testimonials h1 { color: #ffff; font-size: 43px; margin: 20px 0 80px 0; font-style: italic;font-weight: bolder;  }
+.testimonials h1 { color: #07153D; font-size: 43px; margin: 20px 0 80px 0; font-style: italic;font-weight: bolder;  }
 .features h1 { color: white; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
 .design h1 { color: #abbcc3; font-size: 38px; font-weight: 300; margin-top: 0; }
 /* ==========================================================================
@@ -230,7 +230,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .try-btn { background-color: #5cabdf; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; color: #fff; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; padding: 15px 50px; margin: 70px 0 70px; }
 .try-btn:hover, .try-btn:focus { background-color: #b1b6d5; color: #2f3037; text-decoration: none; }
 .design { padding: 100px 0; background-color: #f6f6f4; position: relative;}
-.flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgb(253, 253, 253); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
+.flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgb(253, 253, 253); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; height: 650px; width: 350px; }
 .flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
 .colourway { height: 346px; }
 .colour1 { background-color: #f69679; }
@@ -382,9 +382,53 @@ header{
     line-height: 30px;
 }
 
-#preguntas{
-    width: 100%;
+.testimonio-h1{
+    background-color: #fff;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding: 15px;
 }
+
+.fotoprensa {
+    background-image: url(../img/prensa_5.jpeg);
+}
+
+.fotoprensa2{
+    background-image: url(../img/prensa1_2_10.jpeg);
+}
+
+.fotoprensa3{
+    background-image: url(../img/prensa2_12_10.jpg);
+}
+
+.fotoprensa4{
+    background-image: url(../img/prensa2_12_oct.jpg);
+}
+
+.fotoprensa5{
+    background-image: url(../img/prensa_2_11.jpeg);
+}
+
+.tituloprensa{
+    font-size-adjust: inherit; 
+    color: #9197a8; 
+    text-transform: uppercase; 
+    font-weight: 600; 
+    letter-spacing: 2px; 
+    padding: 20px 40px 0; 
+}
+.subtituloprensa{
+    padding: 0px 20px 40px 40px; 
+    font-style: italic; 
+    color: #7a8387; 
+    font-size: 16px;
+}
+.vermas{
+    color: black;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
 
 h3 {
     font-weight: bolder;
@@ -430,42 +474,13 @@ h3 {
 
 }
 
-.FAQ{
+.contenidoprensa{
     margin-left: 15px;
     font-size:30px
 }
-.fotoprensa {
-    background-image: url(../img/prensa_2_11.jpeg);
-}
 
-.fotoprensa2{
-    background-image: url(../img/prensa1_2_10.jpeg);
-}
-
-.fotoprensa3{
-    background-image: url(../img/prensa2_12_10.jpg);
-}
-
-.fotoprensa4{
-    background-image: url(../img/prensa4_15_10.jpg);
-}
-
-.tituloprensa{
-    font-size-adjust: inherit; 
-    color: #9197a8; 
-    text-transform: uppercase; 
-    font-weight: 600; 
-    letter-spacing: 2px; 
-    padding: 20px 40px 0; 
-}
-.subtituloprensa{
-    padding: 0px 20px 40px 40px; 
-    font-style: italic; 
-    color: #7a8387; 
-    font-size: 16px;
-}
-.vermas{
-    color: black;
-    margin-left: 40%;
-    margin-bottom: 10%;
+#FAQ {
+    background-color: #5b6869;
+    margin-left: 15px;
+    font-size:30px
 }
