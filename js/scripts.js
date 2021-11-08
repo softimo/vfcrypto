@@ -30,6 +30,24 @@ $('.prev, .next').on('click', function() {
   $('#secondSlider').flexslider(href)
   return false;
 })
+
+//third-Slider
+
+// second-flexslider
+$(window).load(function() {
+  $('#thirdSlider').flexslider({
+    animation: "slide",
+    directionNav: false,
+    controlNav: false,
+    touch: false,
+  });
+});
+$('.prev, .next').on('click', function() {
+  var href = $(this).attr('href');
+  $('#thirdSlider').flexslider(href)
+  return false;
+})
+
 // waypoints
 $(document).ready(function() {
 
