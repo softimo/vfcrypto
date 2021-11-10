@@ -186,7 +186,7 @@ Headings
 
 .hero h1 { font-size: 60px; font-weight: 100; color: #fff; letter-spacing: -1px; margin: 100px 0 20px 0; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
-.testimonials h1 { color: #07153D; font-size: 43px; margin: 20px 0 80px 0; font-style: italic;font-weight: bolder;  }
+.testimonials h1 { color: #07153D; font-size: 40px; margin: 20px 0 80px 0; font-style: italic; }
 .features h1 { 
     background-color: #fff;
     opacity: 0.8;
@@ -410,22 +410,32 @@ header{
 
 .fotoprensa {
     background-image: url(../img/prensa_5.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 .fotoprensa2{
     background-image: url(../img/prensa1_2_10.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 .fotoprensa3{
     background-image: url(../img/prensa2_12_10.jpg);
+    background-size: contain;
 }
 
 .fotoprensa4{
     background-image: url(../img/prensa2_12_oct.jpg);
+    background-size: contain;
 }
 
 .fotoprensa5{
     background-image: url(../img/prensa_2_11.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .tituloprensa{
@@ -453,35 +463,57 @@ h3 {
     font-weight: bolder;
 }
 
+.equipamientos{
+    background-color: #fff;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+
+.equipamientos:hover, .equipamientos:focus{
+    transition: 0.7s;
+    transform: translate(0, -5px); 
+    -webkit-transform: translate(0, -5px); 
+    -o-transform: translate(0, -5px);
+     -moz-transform: translate(0, -5px);
+}
+
 .fotoproducto1{
     background-image: url(../img/fotos/1-01.jpg);
+    background-size: contain;
+
 }
 .fotoproducto2{
-    background-image: url(../img/fotos/10-03.jpg)
+    background-image: url(../img/fotos/10-03.jpg);
+    background-size: contain;
 }
 .fotoproducto3{
     background-image: url(../img/fotos/2-01.jpg);
+    background-size: contain;
 }
 .fotoproducto4{
     background-image: url(../img/fotos/3-01.jpg);
+    background-size: contain;
 }
 .fotoproducto5{
     background-image: url(../img/fotos/4-01.jpg);
+    background-size: contain;
 }
 .fotoproducto6{
     background-image: url(../img/fotos/5-01.jpg);
+    background-size: contain;
 }
 .fotoproducto7{
     background-image: url(../img/fotos/7-01.jpg);
+    background-size: contain;
 }
 .fotoproducto8{
     background-image: url(../img/fotos/8-01.jpg);
+    background-size: contain;
 }
 .fotoproducto9{
     background-image: url(../img/fotos/9-02.jpg);
+    background-size: contain;
 }
-
-
 
 
 .acordeon{
@@ -501,7 +533,7 @@ h3 {
     border-bottom: 1px #fff;
     border-radius: 40px;
     opacity: 0.9;
-    letter-spacing: 1px
+    letter-spacing: 2px
 }
 
 .acordeon_titulo:hover{
@@ -515,6 +547,7 @@ h3 {
     color: black;
      line-height: 30px;
      font-size: medium;
+
 }
 
 .acordeon input:checked ~ .acordeon_contenido {
@@ -528,16 +561,31 @@ h3 {
 }
 
 .contenidoprensa{
-    margin-left: 15px;
-    font-size:30px
+    position: relative;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 20px; 
+    color:#07153D;
+    font-size: 20px; 
+    display:inline-table;
+    margin-left:  25px;
+    margin-bottom: 25px;
+ }
     
-}
 
 #pregfrec{
     position: relative;
-    margin-left: 15px;
-    font-size: 30px;
-    margin-bottom: -20px;
+    background-color: #fff;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding: 20px; 
+    color:#07153D;
+    font-size: 20px; 
+    display:inline-table;
+    margin-left:  20px;
+    margin-bottom: -25px;
+
 }
 
 #mas{
