@@ -187,7 +187,16 @@ Headings
 .hero h1 { font-size: 60px; font-weight: 100; color: #fff; letter-spacing: -1px; margin: 100px 0 20px 0; }
 .download-now h1 { font-size: 55px; font-weight: 100; color: #fff; margin: 100px 0 20px 0; }
 .testimonials h1 { color: #07153D; font-size: 43px; margin: 20px 0 80px 0; font-style: italic;font-weight: bolder;  }
-.features h1 { color: white; font-size: 15px; margin: 0 0 20px 0; text-transform: uppercase; }
+.features h1 { 
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 15px; 
+    color:#07153D;
+    font-size: 15px; 
+    margin: 0 0 20px 0; 
+    text-transform: uppercase;
+    text-align: center; }
 .design h1 { color: #abbcc3; font-size: 38px; font-weight: 300; margin-top: 0; }
 /* ==========================================================================
 Custom Styles
@@ -219,11 +228,11 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .get-started-btn:hover, .get-started-btn:focus { text-decoration: none; opacity: 2; }
 .download-now { background: silver no-repeat right 65px; background-size: 50%; }
 .download-now p { color: #fff; font-size: 15px; /*margin: 40px 30px 40px 0; line-height: 30px;*/ }
-.download-btn { border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 185px; }
-.download-btn:hover, .download-btn:focus { text-decoration: none; border-color: silver; color: silver; }
+.download-btn { margin-left:10%; border: solid 3px #fff; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; letter-spacing: 2px; transition: all 0.5s ease; padding: 15px 70px; display: inline-block; color: #fff; margin-bottom: 200px; }
+.download-btn:hover, .download-btn:focus { background-color: silver; text-decoration: none; border-color: silver; color:#061237 ; }
 .testimonials { background: #5b6869 url('../img/tBG01.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
-.features { background: #fff url('../img/arrowBG.png') no-repeat center -1px; padding: 70px 0; }
-.features p { color: white;; font-size: 16px; word-spacing: 2px; line-height: 30px; }
+.features {padding: 70px; }
+.features p { background-color: #061237; opacity: 0.8; padding: 15px; border-radius: 20px; color: white;; font-size: 16px; word-spacing: 2px; line-height: 40px; }
 .features-leftcol { border-right: 1px solid rgba(208, 217, 226, 0.4); padding-right: 60px; }
 .features-rightcol { padding-left: 60px; }
 .margin-bottom { margin-bottom: 70px; }
@@ -338,6 +347,14 @@ header{
     margin-top: 25px;
 }
 
+#instagram{
+    text-align: left;
+    list-style-type: none;
+    margin: 0px;
+    padding: 3%;
+    font-weight: 800;
+}
+
 
 
 .secc-uno{
@@ -436,6 +453,40 @@ h3 {
     font-weight: bolder;
 }
 
+.fotoproducto1{
+    background-image: url(../img/fotos/1-01.jpg);
+}
+.fotoproducto2{
+    background-image: url(../img/fotos/10-03.jpg)
+}
+.fotoproducto3{
+    background-image: url(../img/fotos/2-01.jpg);
+}
+.fotoproducto4{
+    background-image: url(../img/fotos/3-01.jpg);
+}
+.fotoproducto5{
+    background-image: url(../img/fotos/4-01.jpg);
+}
+.fotoproducto6{
+    background-image: url(../img/fotos/5-01.jpg);
+}
+.fotoproducto7{
+    background-image: url(../img/fotos/7-01.jpg);
+}
+.fotoproducto8{
+    background-image: url(../img/fotos/8-01.jpg);
+}
+.fotoproducto9{
+    background-image: url(../img/fotos/9-02.jpg);
+}
+
+
+
+
+.acordeon{
+    margin-top: 50px;
+}
 
 .acordeon input {
     display: none;
@@ -479,10 +530,26 @@ h3 {
 .contenidoprensa{
     margin-left: 15px;
     font-size:30px
+    
 }
 
-#FAQ {
-    background-color: #5b6869;
+#pregfrec{
+    position: relative;
     margin-left: 15px;
-    font-size:30px
+    font-size: 30px;
+    margin-bottom: -20px;
 }
+
+#mas{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 15px;
+
+}
+#mas:hover{
+    background-color: silver;
+}
+
+
