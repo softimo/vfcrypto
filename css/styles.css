@@ -224,7 +224,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .hero a { color: #fff; }
 .hero-play-btn { height: 99px; width: 99px; background: url('../img/play-btn.png') no-repeat center center; display: block; text-indent: -99999px; margin: 80px auto 260px; transition: all 1s ease; -moz-transition: all 1s ease; -webkit-transition: all 1s ease; -o-transition: all 1s ease; }
 .hero-play-btn:hover, .hero-play-btn:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
-.get-started-btn { background-color: #07153D; margin-top: 350px; padding: 20px 80px; opacity: 0.8; border-radius: 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 22px; letter-spacing: 2px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; }
+.get-started-btn { background-color: #07153D; margin-top: 320px; padding: 20px 80px; opacity: 0.8; border-radius: 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 22px; letter-spacing: 2px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; }
 .get-started-btn:hover, .get-started-btn:focus { text-decoration: none; opacity: 2; }
 .download-now { background: silver no-repeat right 65px; background-size: 50%; }
 .download-now p { color: #fff; font-size: 15px; /*margin: 40px 30px 40px 0; line-height: 30px;*/ }
@@ -361,6 +361,8 @@ header{
     display:flex;
     justify-content: flex-end;
     margin-right: 5%;
+   
+   
     
 }
 .nav{
@@ -369,13 +371,16 @@ header{
     margin: 0px;
     padding: 3%;
     font-weight: 800;
-    
+
 }
 
 .nav-li{
     text-align: center;
 }
 
+#instagram{
+    margin-top: -38px;
+}
 
 #myVideo {
  position: fixed;
@@ -408,35 +413,40 @@ header{
     padding: 15px;
 }
 
+
+.fotoprensa5{
+    background-image: url(../img/prensa_15_oct.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fotoprensa4{
+    background-image: url(../img/prensa_12_oct.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.fotoprensa3{
+    background-image: url(../img/prensa_02_oct.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.fotoprensa2{
+    background-image: url(..//img/prensa_11_sept.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
 .fotoprensa {
-    background-image: url(../img/prensa_5.jpeg);
+    background-image: url(../img/notaalemana.png);
     background-repeat: no-repeat;
     background-size: contain;
     
 }
 
-.fotoprensa2{
-    background-image: url(../img/prensa1_2_10.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-
-}
-
-.fotoprensa3{
-    background-image: url(../img/prensa2_12_10.jpg);
-    background-size: contain;
-}
-
-.fotoprensa4{
-    background-image: url(../img/prensa2_12_oct.jpg);
-    background-size: contain;
-}
-
-.fotoprensa5{
-    background-image: url(../img/prensa_2_11.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 .tituloprensa{
     font-size-adjust: inherit; 
@@ -465,12 +475,12 @@ h3 {
 
 .equipamientos{
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
     padding-bottom: 40px;
 }
 
 .equipamientos:hover, .equipamientos:focus{
-    transition: 0.7s;
+    transition: 0.5s;
     transform: translate(0, -5px); 
     -webkit-transform: translate(0, -5px); 
     -o-transform: translate(0, -5px);
@@ -599,5 +609,4 @@ h3 {
 #mas:hover{
     background-color: silver;
 }
-
 
