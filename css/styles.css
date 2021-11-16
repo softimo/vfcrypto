@@ -443,12 +443,11 @@ header{
 }
 
 .fotoprensa {
-    background-image: url(../img/notaalemana.png);
+    background-image: url(../img/prensalemanapng.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
 
+}
 
 .tituloprensa{
     font-size-adjust: inherit; 
@@ -596,6 +595,7 @@ h3 {
     display:inline-table;
     margin-left:  25px;
     margin-bottom: 25px;
+    
  }
     
 
