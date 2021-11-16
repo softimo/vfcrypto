@@ -417,33 +417,34 @@ header{
 .fotoprensa5{
     background-image: url(../img/prensa_15_oct.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    
 }
 
 .fotoprensa4{
     background-image: url(../img/prensa_12_oct.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
 .fotoprensa3{
     background-image: url(../img/prensa_02_oct.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 
 .fotoprensa2{
     background-image: url(..//img/prensa_11_sept.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-
+    background-size: cover;
 }
 
 .fotoprensa {
     background-image: url(../img/notaalemana.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -463,9 +464,22 @@ header{
     font-size: 16px;
 }
 .vermas{
-    color: black;
+    color: #07153D;
     margin-left: 40%;
     margin-bottom: 10%;
+    opacity: 0.8; 
+    border-radius: 4px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    font-size: 15px; 
+    letter-spacing: 2px; 
+    transition: all 0.5s ease; 
+    -moz-transition: all 0.5s ease; 
+    -webkit-transition: all 0.5s ease; 
+    -o-transition: all 0.5s ease;
+    width: 40%;
+    text-decoration: none;
+    
 }
 
 
@@ -595,6 +609,7 @@ h3 {
     display:inline-table;
     margin-left:  20px;
     margin-bottom: -25px;
+    
 
 }
 
