@@ -338,6 +338,7 @@ header{
 
 }
 
+
 #perfil{
     width: 250px;
     height: 250px;
@@ -623,5 +624,73 @@ h3 {
 }
 #mas:hover{
     background-color: silver;
+}
+
+
+
+@media all and (min-width:1200px){
+    #valeriaperfil{
+        display: flex;
+        flex-direction: wrap;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        width:150% !important;
+    
+    }
+ }
+@media all and (min-width: 960px) and (max-width: 1199px) { 
+    #valeriaperfil{
+        display: flex;
+        flex-direction: wrap;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        
+    
+    }
+ }
+@media all and (min-width: 768px) and (max-width: 959px) { 
+    #valeriaperfil{
+        display: flex;
+        flex-direction: wrap;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        
+    
+    }
+ }
+@media all and (min-width: 480px) and (max-width: 767px){ 
+    #valeriaperfil{
+        display: flex;
+        flex-direction: wrap;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        
+    
+    }
+ }
+@media all and (max-width: 479px) { 
+    #valeriaperfil{
+    display: flex;
+    flex-direction: wrap;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    flex-direction: column;
+
+} 
+
+#nosotros{
+    max-width: 320px;
+    max-height: auto;
+}
+
+#perfil{
+    margin-left: 2%;
+}
+
+#whoweare{
+    margin-left:28%;
+}
+
+
 }
 
