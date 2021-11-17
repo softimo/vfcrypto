@@ -21,8 +21,8 @@ if (empty($_POST["message"])) {
 
 
 
-$EmailTo = "contacto@softimo.com.ar";
-$Subject = "Nuevo mensaje de contacto";
+$EmailTo = "contacto@vfcriptomineria.com";
+$Subject = "Nueva solicitud de presupuesto";
 
 // prepare email body text
 $Body = "";
@@ -36,7 +36,7 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-$header = "From: contacto@softimo.com.ar\nReply-To:".$_POST["email"]."\n";
+$header = "From: contacto@vfcriptomineria.com\nReply-To:".$_POST["email"]."\n";
 $header .= "Mime-Version: 1.0\n";
 $header .= "Content-Type: text/plain";
 // send email
