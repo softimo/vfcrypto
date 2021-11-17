@@ -100,3 +100,64 @@ $(document).ready(function() {
     closeEffect: 'none'
   });
 });
+
+
+/* Contact Form */
+$("#contactForm").validator().on("submit", function(event) {
+  if (event.isDefaultPrevented()) {
+        // handle the invalid form...
+        cformError();
+        csubmitMSG(false, "Por favor complete todos los campos!");
+    } else {
+        // everything looks good!
+        event.preventDefault();
+        csubmitForm();
+    }
+});
+
+function csubmitForm() {
+    // initiate variables with form content
+var name = $("#cname").val();
+var email = $("#cemail").val();
+    var message = $("#cmessage").val();
+   
+    $.ajax({
+        type: "POST",
+        url: "contactform-process.php",
+        data: "name=" + name + "&email=" + email + "&message=" + message, 
+        success: function(text) {
+            if (text == "success") {
+                cformSuccess();
+            } else {
+                cformError();
+                csubmitMSG(false, text);
+            }
+        }
+    });
+
+}
+
+//Contact Form
+
+function cformSuccess() {
+    $("#contactForm")[0].reset();
+    csubmitMSG(true, "Mensaje enviado!");
+    $("input").removeClass('notEmpty'); // resets the field label after submission
+    $("textarea").removeClass('notEmpty'); // resets the field label after submission
+}
+
+function cformError() {
+    $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+        $(this).removeClass();
+    });
+}
+
+function csubmitMSG(valid, msg) {
+    if (valid) {
+        var msgClasses = "h3 text-center tada animated";
+    } else {
+        var msgClasses = "h3 text-center";
+    }
+    $("#cmsgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
+
