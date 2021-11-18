@@ -417,19 +417,21 @@ header{
 
 .flat-box-prensa { 
     background-color: #fff;   
-       height: 590px; 
-       width:900px; 
+    max-width: 35%; 
+    max-height: 55%;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 3px;
 
     }
 
-.colourway1 { height: 300px; width: 900px;}
+.colourway1 { max-width: 35%; max-height: 35%;}
 
 
 .fotoprensa5{
     background-image: url(../img/prensa_15_oct.png);
-    background-size: cover;
+    max-width: 100%; 
+    max-height: 100%;
     
 }
 
@@ -440,7 +442,7 @@ header{
     
 }
 .fotoprensa3{
-    background-image: url(../img/prensa_02_oct.jpg);
+    background-image: url(../img/02octubre.jpg);
     background-size: cover;
   
     
@@ -454,7 +456,7 @@ header{
 }
 
 .fotoprensa {
-    background-image: url(../img/prensalemanapng.png);
+    background-image: url(../img/fotos/1-01.jpg);
     background-size: cover;
 
 }
@@ -480,7 +482,7 @@ header{
 .vermas{
     color: #07153D;
     margin-left: 80%;
-    margin-bottom: 30%;
+    margin-bottom: 2px;
     font-size: 15px; 
     letter-spacing: 2px;
     width: 40%;
@@ -657,6 +659,33 @@ h3 {
         
     
     }
+    #iniciolist{
+        flex-wrap: wrap;
+    }
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        
+    
+        }
+        .vermas{
+            color: #07153D;
+            margin-left: 40%;
+            margin-bottom: 2px;
+            font-size: 15px; 
+            letter-spacing: 2px;
+            width: 40%;
+            text-decoration: none;
+            
+            
+        }
+    
+
  }
 @media all and (min-width: 768px) and (max-width: 959px) { 
     #valeriaperfil{
@@ -667,6 +696,31 @@ h3 {
         
     
     }
+    #iniciolist{
+        flex-wrap: wrap;
+    }
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        
+    
+        }
+        .vermas{
+            color: #07153D;
+            margin-left: 40%;
+            margin-bottom: 2px;
+            font-size: 15px; 
+            letter-spacing: 2px;
+            width: 40%;
+            text-decoration: none;
+            
+            
+        }
  }
 @media all and (min-width: 480px) and (max-width: 767px){ 
     #valeriaperfil{
@@ -677,6 +731,32 @@ h3 {
         
     
     }
+    #iniciolist{
+        flex-wrap: wrap;
+    }
+
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        
+    
+        }
+        .vermas{
+            color: #07153D;
+            margin-left: 40%;
+            margin-bottom: 2px;
+            font-size: 15px; 
+            letter-spacing: 2px;
+            width: 40%;
+            text-decoration: none;
+            
+            
+        }
  }
 @media all and (max-width: 479px) { 
     #valeriaperfil{
@@ -687,6 +767,9 @@ h3 {
     flex-direction: column;
 
 } 
+#iniciolist{
+    flex-wrap: wrap;
+}
 
 #nosotros{
     max-width: 320px;
@@ -700,7 +783,32 @@ h3 {
 #whoweare{
     margin-left:28%;
 }
+.flat-box-prensa { 
+    
+    background-color: #fff;   
+    max-width: 350px; 
+    max-height: 370px;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 3px;
+    
 
+    }
+    .vermas{
+        color: #07153D;
+        margin-left: 40%;
+        margin-bottom: 2px;
+        font-size: 15px; 
+        letter-spacing: 2px;
+        width: 40%;
+        text-decoration: none;
+        
+        
+    }
+
+    #flechasmovimiento{
+        margin-left:-4%;
+    }
 
 }
 
