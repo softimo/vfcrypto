@@ -239,9 +239,10 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .try-btn { background-color: #5cabdf; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; font-size: 17px; color: #fff; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; display: inline-block; padding: 15px 50px; margin: 70px 0 70px; }
 .try-btn:hover, .try-btn:focus { background-color: #b1b6d5; color: #2f3037; text-decoration: none; }
 .design { padding: 100px 0; background-color: #f6f6f4; position: relative;}
-.flat-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px rgb(253, 253, 253); -moz-box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); box-shadow: 0px 3px 0px 0px rgba(234, 234, 234, 1); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; height: 650px; width: 350px; }
-.flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); }
+.flat-box { background-color: #fff;  transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; height: 650px; width: 350px; }
+/*.flat-box:hover, .flat-box:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -o-transform: translate(0, -15px); -moz-transform: translate(0, -15px); } */
 .colourway { height: 346px; }
+
 .colour1 { background-color: #f69679; }
 .colour2 { background-color: #e8b968; }
 .colour3 { background-color: #7accc8; }
@@ -414,37 +415,48 @@ header{
     padding: 15px;
 }
 
+.flat-box-prensa { 
+    background-color: #fff;   
+    max-width: 35%; 
+    max-height: 55%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 3px;
+
+    }
+
+.colourway1 { max-width: 35%; max-height: 35%;}
+
 
 .fotoprensa5{
     background-image: url(../img/prensa_15_oct.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 100%; 
+    max-height: 100%;
     
 }
 
 .fotoprensa4{
     background-image: url(../img/prensa_12_oct.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+  
     
 }
 .fotoprensa3{
-    background-image: url(../img/prensa_02_oct.jpg);
+    background-image: url(../img/02octubre.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+  
     
 }
 
 
 .fotoprensa2{
     background-image: url(..//img/prensa_11_sept.jpg);
-    background-repeat: no-repeat;
+
     background-size: cover;
 }
 
 .fotoprensa {
-    background-image: url(../img/prensalemanapng.png);
-    background-repeat: no-repeat;
+    background-image: url(../img/fotos/1-01.jpg);
     background-size: cover;
 
 }
@@ -453,30 +465,26 @@ header{
     font-size-adjust: inherit; 
     color: #9197a8; 
     text-transform: uppercase; 
-    font-weight: 600; 
+    font-weight:bolder;
+    font-size: 20px;
     letter-spacing: 2px; 
     padding: 20px 40px 0; 
+    text-align: center;
+    text-decoration: none;
 }
 .subtituloprensa{
-    padding: 0px 20px 40px 40px; 
+    padding: 20px;
     font-style: italic; 
     color: #7a8387; 
     font-size: 16px;
+    text-align: center;
 }
 .vermas{
     color: #07153D;
-    margin-left: 40%;
-    margin-bottom: 10%;
-    opacity: 0.8; 
-    border-radius: 4px; 
-    -webkit-border-radius: 3px; 
-    -moz-border-radius: 3px; 
+    margin-left: 80%;
+    margin-bottom: 2px;
     font-size: 15px; 
-    letter-spacing: 2px; 
-    transition: all 0.5s ease; 
-    -moz-transition: all 0.5s ease; 
-    -webkit-transition: all 0.5s ease; 
-    -o-transition: all 0.5s ease;
+    letter-spacing: 2px;
     width: 40%;
     text-decoration: none;
     
@@ -500,6 +508,8 @@ h3 {
     -o-transform: translate(0, -5px);
      -moz-transform: translate(0, -5px);
 }
+
+
 
 .fotoproducto1{
     background-image: url(../img/fotos/1-01.jpg);
@@ -570,7 +580,9 @@ h3 {
     transition: all 0.5;
     color: black;
      line-height: 30px;
-     font-size: medium;
+     font-size: 25px;
+    
+  
 
 }
 
@@ -606,7 +618,7 @@ h3 {
     border-radius: 20px;
     padding: 20px; 
     color:#07153D;
-    font-size: 20px; 
+    font-size: 25px; 
     display:inline-table;
     margin-left:  20px;
     margin-bottom: -25px;
@@ -647,6 +659,33 @@ h3 {
         
     
     }
+    #iniciolist{
+        flex-wrap: wrap;
+    }
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        
+    
+        }
+        .vermas{
+            color: #07153D;
+            margin-left: 40%;
+            margin-bottom: 2px;
+            font-size: 15px; 
+            letter-spacing: 2px;
+            width: 40%;
+            text-decoration: none;
+            
+            
+        }
+    
+
  }
 @media all and (min-width: 768px) and (max-width: 959px) { 
     #valeriaperfil{
@@ -657,6 +696,31 @@ h3 {
         
     
     }
+    #iniciolist{
+        flex-wrap: wrap;
+    }
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        
+    
+        }
+        .vermas{
+            color: #07153D;
+            margin-left: 40%;
+            margin-bottom: 2px;
+            font-size: 15px; 
+            letter-spacing: 2px;
+            width: 40%;
+            text-decoration: none;
+            
+            
+        }
  }
 @media all and (min-width: 480px) and (max-width: 767px){ 
     #valeriaperfil{
@@ -667,6 +731,32 @@ h3 {
         
     
     }
+    #iniciolist{
+        flex-wrap: wrap;
+    }
+
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        
+    
+        }
+        .vermas{
+            color: #07153D;
+            margin-left: 40%;
+            margin-bottom: 2px;
+            font-size: 15px; 
+            letter-spacing: 2px;
+            width: 40%;
+            text-decoration: none;
+            
+            
+        }
  }
 @media all and (max-width: 479px) { 
     #valeriaperfil{
@@ -677,6 +767,9 @@ h3 {
     flex-direction: column;
 
 } 
+#iniciolist{
+    flex-wrap: wrap;
+}
 
 #nosotros{
     max-width: 320px;
@@ -690,7 +783,32 @@ h3 {
 #whoweare{
     margin-left:28%;
 }
+.flat-box-prensa { 
+    
+    background-color: #fff;   
+    max-width: 350px; 
+    max-height: 370px;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-radius: 3px;
+    
 
+    }
+    .vermas{
+        color: #07153D;
+        margin-left: 40%;
+        margin-bottom: 2px;
+        font-size: 15px; 
+        letter-spacing: 2px;
+        width: 40%;
+        text-decoration: none;
+        
+        
+    }
+
+    #flechasmovimiento{
+        margin-left:-4%;
+    }
 
 }
 
