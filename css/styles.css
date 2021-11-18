@@ -355,6 +355,7 @@ header{
     margin: 0px;
     padding: 3%;
     font-weight: 800;
+    margin-top: 5px;
 }
 
 
@@ -378,7 +379,21 @@ header{
 
 .nav-li{
     text-align: center;
+    justify-content: center;
 }
+
+#contactanos{
+    color: red !important;}
+
+#contactanos:hover:focus{
+    background-color: red;
+    opacity: 0.8;
+}
+
+#logo-instagram{
+    margin-top: -16px;
+}
+
 
 #instagram{
     margin-top: -38px;
@@ -428,38 +443,7 @@ header{
 .colourway1 { max-width: 35%; max-height: 35%;}
 
 
-.fotoprensa5{
-    background-image: url(../img/prensa_15_oct.png);
-    max-width: 100%; 
-    max-height: 100%;
-    
-}
 
-.fotoprensa4{
-    background-image: url(../img/prensa_12_oct.jpg);
-    background-size: cover;
-  
-    
-}
-.fotoprensa3{
-    background-image: url(../img/02octubre.jpg);
-    background-size: cover;
-  
-    
-}
-
-
-.fotoprensa2{
-    background-image: url(..//img/prensa_11_sept.jpg);
-
-    background-size: cover;
-}
-
-.fotoprensa {
-    background-image: url(../img/fotos/1-01.jpg);
-    background-size: cover;
-
-}
 
 .tituloprensa{
     font-size-adjust: inherit; 
@@ -497,8 +481,13 @@ h3 {
 
 .equipamientos{
     background-color: #fff;
-    padding: 10px;
+    padding: 8px;
     padding-bottom: 40px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+  
 }
 
 .equipamientos:hover, .equipamientos:focus{
@@ -514,39 +503,70 @@ h3 {
 .fotoproducto1{
     background-image: url(../img/fotos/1-01.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    width: 400px;
 
+   
 }
 .fotoproducto2{
     background-image: url(../img/fotos/10-03.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    width: 400px;
+
 }
 .fotoproducto3{
     background-image: url(../img/fotos/2-01.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 45px;
+    width: 400px;
+ 
 }
 .fotoproducto4{
     background-image: url(../img/fotos/3-01.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 43px;
+    width: 400px;
+
 }
 .fotoproducto5{
     background-image: url(../img/fotos/4-01.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 43px;
+    width: 400px;
+
 }
 .fotoproducto6{
     background-image: url(../img/fotos/5-01.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
 }
 .fotoproducto7{
     background-image: url(../img/fotos/7-01.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 .fotoproducto8{
     background-image: url(../img/fotos/8-01.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+
 }
 .fotoproducto9{
     background-image: url(../img/fotos/9-02.jpg);
-    background-size: contain;
+    background-size: cover;
+    
+
 }
 
 
@@ -641,6 +661,7 @@ h3 {
 
 
 @media all and (min-width:1200px){
+
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -649,6 +670,89 @@ h3 {
         width:150% !important;
     
     }
+    #foto4{
+        width:380px; 
+        height:380px; 
+        float:left; 
+        margin-left: 160px ;
+    }
+
+    #div1{
+        width:380px; 
+        height:380px;
+         float:left; 
+         margin-left: 0px;
+    }
+    #foto5{
+        width:380px;
+        height:380px; 
+        float:left;
+        margin-left: 10px;
+    }
+    #div2{
+        float:left; 
+        width: 380px; 
+        height:380px
+
+    }
+
+    #foto6{
+        width:380px; 
+        height:380px; 
+        float:left; 
+        margin-left: 160px;
+    }
+    #div3{
+        float:left; 
+        width: 380px; 
+        height:380px
+    }
+
+    #foto7{
+        width:380px; 
+        height:380px;
+        float:left; 
+        margin-left: 160px;
+    }
+
+    #div4{
+        float:left;
+        width: 380px;
+        height:380px;
+    }
+
+    #foto8{
+        width:380px; 
+        height:380px;
+        float:left; 
+        margin-left: 0px;
+    }
+
+    #div5{
+        float:left;
+         width: 380px; 
+         height:380px; 
+    }
+
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 376px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        margin-left: -1%;
+        
+    
+        }
+
+    #secondSlider{
+        margin-left: 10%;
+    }
+
+
+
  }
 @media all and (min-width: 960px) and (max-width: 1199px) { 
     #valeriaperfil{
@@ -657,7 +761,6 @@ h3 {
         margin-left: 50px;
         margin-bottom: 40px;
         
-    
     }
     #iniciolist{
         flex-wrap: wrap;
@@ -667,9 +770,10 @@ h3 {
         background-color: #fff;   
         max-width: 350px; 
         max-height: 370px;
-        margin-left: 0px;
+        margin-left: 1%;
         margin-right: 0px;
         border-radius: 3px;
+        
         
     
         }
@@ -684,6 +788,8 @@ h3 {
             
             
         }
+        
+        
     
 
  }
@@ -704,7 +810,7 @@ h3 {
         background-color: #fff;   
         max-width: 350px; 
         max-height: 370px;
-        margin-left: 0px;
+        margin-left: 1%;
         margin-right: 0px;
         border-radius: 3px;
         
@@ -721,6 +827,8 @@ h3 {
             
             
         }
+     
+
  }
 @media all and (min-width: 480px) and (max-width: 767px){ 
     #valeriaperfil{
@@ -740,7 +848,7 @@ h3 {
         background-color: #fff;   
         max-width: 350px; 
         max-height: 370px;
-        margin-left: 0px;
+        margin-left: 1%;
         margin-right: 0px;
         border-radius: 3px;
         
@@ -757,6 +865,8 @@ h3 {
             
             
         }
+     
+
  }
 @media all and (max-width: 479px) { 
     #valeriaperfil{
@@ -788,13 +898,13 @@ h3 {
     background-color: #fff;   
     max-width: 350px; 
     max-height: 370px;
-      margin-left: 0px;
+      margin-left:1%;
       margin-right: 0px;
       border-radius: 3px;
     
 
     }
-    .vermas{
+.vermas{
         color: #07153D;
         margin-left: 40%;
         margin-bottom: 2px;
@@ -806,9 +916,94 @@ h3 {
         
     }
 
-    #flechasmovimiento{
+#flechasmovimiento{
         margin-left:-4%;
     }
+    #foto4{
+        width:100%; 
+        height:380px; 
+        float:left; 
+        margin-left: 0px;
+    }
+
+    #div1{
+        width:100%; 
+        height:380px;
+         float:left; 
+         margin-left: 0px;
+    }
+    #foto5{
+        width:100%; 
+        height:380px; 
+        float:left; 
+        margin-left: 0px;
+    }
+    #div2{
+        width:100%; 
+        height:380px;
+         float:left; 
+         margin-left: 0px;
+    }
+
+    #foto6{
+        width:100%; 
+        height:380px; 
+        float:left; 
+        margin-left: 0px;
+    }
+    #div3{
+        width:100%; 
+        height:380px;
+         float:left; 
+         margin-left: 0px;
+    }
+
+    #foto7{
+        width:100%; 
+        height:380px; 
+        float:left; 
+        margin-left: 0px;
+    }
+
+    #div4{
+        width:100%; 
+        height:380px;
+         float:left; 
+         margin-left: 0px;
+    }
+
+    #foto8{
+        width:100%; 
+        height:380px; 
+        float:left; 
+        margin-left: 0px;
+    }
+
+    #div5{
+        width:100%; 
+        height:380px;
+         float:left; 
+         margin-left: 0px;
+    }
+
+    .flat-box-prensa { 
+    
+        background-color: #fff;   
+        max-width: 350px; 
+        max-height: 376px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+        margin-left: -1%;
+        
+    
+        }
+
+    #secondSlider{
+        margin-left: 10%;
+    }  
+  
+    
 
 }
 
