@@ -161,6 +161,20 @@ $(document).ready(function() {
     }
 
 
+    let menu = document.getElementById("iniciolist");
+    let burguer = document.getElementById("menuburger");
+
+    burguer.addEventListener('click',()=>{
+      if(menu.classList == "nav"){
+      menu.classList.remove("nav");
+      menu.classList.add("respSi")
+    } else{
+      menu.classList.remove("respSi");
+      menu.classList.add("nav")
+    }
+    })
+
+
     
 
 })(jQuery);

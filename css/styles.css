@@ -662,6 +662,10 @@ h3 {
 
 @media all and (min-width:1200px){
 
+    #menuburger{
+        display: none;
+    }
+
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -802,6 +806,40 @@ h3 {
 
  }
 @media all and (min-width: 960px) and (max-width: 1199px) { 
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
+
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -841,6 +879,39 @@ h3 {
 
  }
 @media all and (min-width: 768px) and (max-width: 959px) { 
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -878,6 +949,39 @@ h3 {
 
  }
 @media all and (min-width: 480px) and (max-width: 767px){ 
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -916,6 +1020,44 @@ h3 {
 
  }
 @media all and (max-width: 479px) { 
+
+   
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
+
+
+
     #valeriaperfil{
     display: flex;
     flex-direction: wrap;
