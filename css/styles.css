@@ -662,6 +662,10 @@ h3 {
 
 @media all and (min-width:1200px){
 
+    #menuburger{
+        display: none;
+    }
+
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -671,82 +675,129 @@ h3 {
     
     }
     #foto4{
-        width:380px; 
+        width:400px; 
         height:380px; 
         float:left; 
-        margin-left: 160px ;
+        margin-left: 25px;
+        margin-right: 10px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
     }
 
     #div1{
-        width:380px; 
+        width:400px; 
         height:380px;
          float:left; 
          margin-left: 0px;
+         padding-right: 15px;
     }
+
+    /* -------------------------------- */
+
     #foto5{
-        width:380px;
+        width:450px;
         height:380px; 
         float:left;
         margin-left: 10px;
-    }
-    #div2{
-        float:left; 
-        width: 380px; 
-        height:380px
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
 
     }
+    
+
+    #div2{
+        width: 450px; 
+        height:380px;
+        float:left; 
+        padding-right: 15px;
+
+    }
+     /* -------------------------------- */
 
     #foto6{
-        width:380px; 
-        height:380px; 
+        width:450px; 
+        height:455px; 
         float:left; 
-        margin-left: 160px;
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
     }
     #div3{
         float:left; 
-        width: 380px; 
-        height:380px
+        width: 458px; 
+        height:455px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
     }
+
+     /* -------------------------------- */
 
     #foto7{
         width:380px; 
         height:380px;
         float:left; 
-        margin-left: 160px;
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
     }
 
     #div4{
         float:left;
-        width: 380px;
+        width: 400px;
         height:380px;
     }
 
+     /* -------------------------------- */
+
     #foto8{
-        width:380px; 
-        height:380px;
+        width:450px; 
+        height:455px; 
         float:left; 
-        margin-left: 0px;
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
     }
 
     #div5{
-        float:left;
-         width: 380px; 
-         height:380px; 
+        float:left; 
+        width: 458px; 
+        height:455px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
     }
 
-    .flat-box-prensa { 
+ /* -------------------------------- */
+
+    /*.flat-box-prensa { 
     
         background-color: #fff;   
         max-width: 350px; 
         max-height: 376px;
         margin-left: 0px;
         margin-right: 0px;
-        border-radius: 3px;
         margin-left: -1%;
         
-    
         }
-
+*/
     #secondSlider{
         margin-left: 10%;
     }
@@ -755,6 +806,40 @@ h3 {
 
  }
 @media all and (min-width: 960px) and (max-width: 1199px) { 
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
+
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -794,6 +879,39 @@ h3 {
 
  }
 @media all and (min-width: 768px) and (max-width: 959px) { 
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -831,6 +949,39 @@ h3 {
 
  }
 @media all and (min-width: 480px) and (max-width: 767px){ 
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
     #valeriaperfil{
         display: flex;
         flex-direction: wrap;
@@ -869,6 +1020,44 @@ h3 {
 
  }
 @media all and (max-width: 479px) { 
+
+   
+    #menuburger{
+        display: flex;
+        width: 1rem;
+        height: 1rem;
+        margin-left: 80%;
+        margin-top: 10%;
+    }
+
+    .nav{
+        display: none !important;
+    }
+
+    .respSi{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-nav{
+        display: block;
+        width: 90%;
+        letter-spacing: 1px;
+        border-radius: 2px;
+        opacity: 0.8;
+       
+        
+    }
+
+    .btn-nav li{
+        font-size: large;
+       text-align: left;
+       padding: 1rem;
+       background-color: #061237;
+    }
+
+
+
     #valeriaperfil{
     display: flex;
     flex-direction: wrap;
@@ -937,6 +1126,8 @@ h3 {
         height:380px; 
         float:left; 
         margin-left: 0px;
+        
+
     }
     #div2{
         width:100%; 
