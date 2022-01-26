@@ -455,6 +455,8 @@ header{
     padding: 20px 40px 0; 
     text-align: center;
     text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
 }
 .subtituloprensa{
     padding: 20px;
@@ -568,6 +570,7 @@ h3 {
     
 
 }
+
 
 
 .acordeon{
@@ -829,6 +832,72 @@ h3 {
         align-content: center;
         padding-top: 20px;
     }
+
+    #foto11{
+        width:450px; 
+        height:500px; 
+        float:left; 
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+
+    #div8{
+        float:left; 
+        width: 458px; 
+        height:500px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+    }
+    #foto12{
+        width:600px; 
+        height:455px; 
+        float:left; 
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    #div9{
+        float:left; 
+        width: 458px; 
+        height:455px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+    }
+    #foto13{
+        width:600px; 
+        height:455px; 
+        float:left; 
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    #div10{
+        float:left; 
+        width: 458px; 
+        height:455px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+    }
+
 
 
 
