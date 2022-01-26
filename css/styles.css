@@ -916,6 +916,7 @@ h3 {
 */
     #secondSlider{
         margin-left: 10%;
+        
     }
 
 
@@ -1061,7 +1062,8 @@ h3 {
             
             
         }
-     
+    
+    
 
  }
 @media all and (min-width: 480px) and (max-width: 767px){ 
@@ -1588,3 +1590,12 @@ input[type='checkbox'] {
 	color: #b93636;
 	font: 400 1.125rem/1rem "Open Sans", sans-serif;
 }
+
+.fotocontainer{
+    
+    opacity: 0.9;
+}
+
+.bi {
+    font-size: 2em;
+  }
