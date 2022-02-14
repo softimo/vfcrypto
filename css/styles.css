@@ -898,6 +898,28 @@ h3 {
         padding-top: 20px;
     }
 
+    #foto14{
+        width:600px; 
+        height:455px; 
+        float:left; 
+        margin-left: 10px;
+        margin-right: 15px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    #div11{
+        float:left; 
+        width: 458px; 
+        height:455px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        padding-top: 20px;
+    }
+
 
 
 
@@ -1592,10 +1614,44 @@ input[type='checkbox'] {
 }
 
 .fotocontainer{
-    
     opacity: 0.9;
 }
 
 .bi {
     font-size: 2em;
   }
+
+.header-ventas{
+    margin-bottom: -197px;
+}  
+
+#ventas {
+    background-color: transparent;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.listado-videos{
+    margin-right: 15px;
+    padding: 10px;
+}
+
+#video-ventas{
+    height: 500px;
+    opacity: 1;
+}
+
+.epigrafe-video{
+    background-color: #061237;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 40px;
+    width: 800px;
+}
+
